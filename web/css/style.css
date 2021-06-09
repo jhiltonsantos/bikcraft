@@ -1,14 +1,21 @@
-.produto {
-  height: 200px;
-  background: cyan;
+.item_produto {
+  height: 100px;
+  background: aliceblue;
+  text-align: center;
+  padding: 50px 0px 86px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.produto-2 {
-  margin-top: 20px;
+.item-produto-2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 400px;
+  background: blanchedalmond;
 }
 
 div {
-  background: darkkhaki;
+  background: tomato;
 }
 
 .flexbox {
@@ -22,4 +29,16 @@ div {
   margin: 0 10px;
   display: flex;
   flex: 1;
+}
+
+.gridlayout {
+  width: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.div5 {
+  grid-column: 2;
 }
